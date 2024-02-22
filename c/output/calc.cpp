@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdlib.h>
 
 using namespace std;
 
@@ -36,6 +37,8 @@ int main() {
     }
 
     cout << "Resultado: " << resultado << endl;
+
+    system("pause");
 
     return 0;
 }
