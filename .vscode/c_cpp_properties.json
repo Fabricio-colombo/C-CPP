@@ -9,8 +9,15 @@
       "cStandard": "${default}",
       "cppStandard": "${default}",
       "intelliSenseMode": "windows-gcc-x64",
+      "terminal.integrated.shellArgs.windows": ["-NoExit", "/K", "chcp 65001"],
       "compilerArgs": [
-        ""
+        "-std=c++11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe",
+        "${file}"
       ]
     }
   ],
