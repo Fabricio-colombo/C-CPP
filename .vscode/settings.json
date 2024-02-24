@@ -101,6 +101,7 @@
     "typeinfo": "cpp",
     "cstring": "cpp",
     "string_view": "cpp",
-    "iomanip": "cpp"
+    "iomanip": "cpp",
+    "codecvt": "cpp"
   }
 }
